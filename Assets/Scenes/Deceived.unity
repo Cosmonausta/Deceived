@@ -1000,6 +1000,16 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 137391003249101986, guid: f6e999239c7a22f4289ffbc9e1d57751,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 291e46f3d4a532446b8cb030e2d6f534, type: 3}
+    - target: {fileID: 137391003249101986, guid: f6e999239c7a22f4289ffbc9e1d57751,
+        type: 2}
+      propertyPath: m_RootBone
+      value: 
+      objectReference: {fileID: 826152427}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f6e999239c7a22f4289ffbc9e1d57751, type: 2}
   m_IsPrefabParent: 0
@@ -1499,6 +1509,11 @@ Transform:
   m_Father: {fileID: 696330519}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!4 &826152427 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4356215813197308, guid: f6e999239c7a22f4289ffbc9e1d57751,
+    type: 2}
+  m_PrefabInternal: {fileID: 468244783}
 --- !u!1001 &920250094
 Prefab:
   m_ObjectHideFlags: 0
